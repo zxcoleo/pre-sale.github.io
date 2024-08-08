@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         img.style.display = 'block'; // Ensure it's visible
         img.style.position = 'fixed';
-        img.style.maxWidth = '60px';
+        img.style.maxWidth = '40px';
         img.style.height = 'auto';
         img.style.zIndex = '15';
         img.style.pointerEvents = 'none';
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
         img.style.left = `${startX}px`;
 
         // Adjust initial top position to start further off-screen
-        img.style.top = '-150px'; // Start further above the screen
+        img.style.top = '-100px'; // Start further above the screen
 
         // Append the cloned image to the body
         body.appendChild(img);
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Continuously create new juice boxes at random intervals
-    setInterval(createAndAnimateJuiceBox, 500); // Adjust interval as needed
+    setInterval(createAndAnimateJuiceBox, 5000); // Adjust interval as needed
 });
 
 
