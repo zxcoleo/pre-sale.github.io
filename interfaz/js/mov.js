@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Continuously create new juice boxes at random intervals
-    setInterval(createAndAnimateJuiceBox, 5000); // Adjust interval as needed
+    setInterval(createAndAnimateJuiceBox, 500); // Adjust interval as needed
 });
 
 
